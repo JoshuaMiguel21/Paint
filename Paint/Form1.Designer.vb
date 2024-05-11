@@ -36,6 +36,9 @@ Partial Class Form1
         Eraser = New PictureBox()
         Label2 = New Label()
         Label3 = New Label()
+        EraseAll = New PictureBox()
+        Label4 = New Label()
+        Save = New PictureBox()
         CType(ColorBlue, ComponentModel.ISupportInitialize).BeginInit()
         CType(ColorRed, ComponentModel.ISupportInitialize).BeginInit()
         CType(ColorGreen, ComponentModel.ISupportInitialize).BeginInit()
@@ -46,6 +49,8 @@ Partial Class Form1
         CType(ColorPink, ComponentModel.ISupportInitialize).BeginInit()
         CType(ColorBlack, ComponentModel.ISupportInitialize).BeginInit()
         CType(Eraser, ComponentModel.ISupportInitialize).BeginInit()
+        CType(EraseAll, ComponentModel.ISupportInitialize).BeginInit()
+        CType(Save, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
         ' 
         ' ColorBlue
@@ -179,9 +184,9 @@ Partial Class Form1
         Eraser.BackColor = Color.Transparent
         Eraser.Cursor = Cursors.Hand
         Eraser.Image = CType(resources.GetObject("Eraser.Image"), Image)
-        Eraser.Location = New Point(858, -1)
+        Eraser.Location = New Point(895, 19)
         Eraser.Name = "Eraser"
-        Eraser.Size = New Size(186, 138)
+        Eraser.Size = New Size(85, 100)
         Eraser.SizeMode = PictureBoxSizeMode.Zoom
         Eraser.TabIndex = 11
         Eraser.TabStop = False
@@ -206,21 +211,60 @@ Partial Class Form1
         Label3.BackColor = Color.Transparent
         Label3.Font = New Font("Juice ITC", 14.25F, FontStyle.Bold, GraphicsUnit.Point)
         Label3.ForeColor = Color.LavenderBlush
-        Label3.Location = New Point(440, 100)
+        Label3.Location = New Point(560, 101)
         Label3.Name = "Label3"
-        Label3.Size = New Size(173, 21)
+        Label3.Size = New Size(15, 21)
         Label3.TabIndex = 13
-        Label3.Text = "Currently using: ""Color"""
+        Label3.Text = " "
+        ' 
+        ' EraseAll
+        ' 
+        EraseAll.BackColor = Color.Transparent
+        EraseAll.Cursor = Cursors.Hand
+        EraseAll.Image = CType(resources.GetObject("EraseAll.Image"), Image)
+        EraseAll.Location = New Point(966, 34)
+        EraseAll.Name = "EraseAll"
+        EraseAll.Size = New Size(75, 65)
+        EraseAll.SizeMode = PictureBoxSizeMode.Zoom
+        EraseAll.TabIndex = 14
+        EraseAll.TabStop = False
+        ' 
+        ' Label4
+        ' 
+        Label4.Anchor = AnchorStyles.Top Or AnchorStyles.Left Or AnchorStyles.Right
+        Label4.AutoSize = True
+        Label4.BackColor = Color.Transparent
+        Label4.Font = New Font("Juice ITC", 14.25F, FontStyle.Bold, GraphicsUnit.Point)
+        Label4.ForeColor = Color.LavenderBlush
+        Label4.Location = New Point(440, 101)
+        Label4.Name = "Label4"
+        Label4.Size = New Size(123, 21)
+        Label4.TabIndex = 15
+        Label4.Text = "Currently using: "
+        ' 
+        ' Save
+        ' 
+        Save.BackColor = Color.Transparent
+        Save.Cursor = Cursors.Hand
+        Save.Image = CType(resources.GetObject("Save.Image"), Image)
+        Save.Location = New Point(981, 512)
+        Save.Name = "Save"
+        Save.Size = New Size(60, 38)
+        Save.SizeMode = PictureBoxSizeMode.Zoom
+        Save.TabIndex = 16
+        Save.TabStop = False
         ' 
         ' Form1
         ' 
-        AutoScaleDimensions = New SizeF(7.0F, 15.0F)
+        AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         AutoSize = True
         AutoSizeMode = AutoSizeMode.GrowAndShrink
         BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), Image)
         BackgroundImageLayout = ImageLayout.Stretch
         ClientSize = New Size(1031, 551)
+        Controls.Add(PictureBox1)
+        Controls.Add(Label4)
         Controls.Add(Label3)
         Controls.Add(Label2)
         Controls.Add(ColorBlack)
@@ -228,12 +272,13 @@ Partial Class Form1
         Controls.Add(ColorYellow)
         Controls.Add(ColorOrange)
         Controls.Add(Label1)
-        Controls.Add(PictureBox1)
         Controls.Add(ColorGreen)
         Controls.Add(ColorRed)
         Controls.Add(ColorBlue)
-        Controls.Add(PictureBox2)
         Controls.Add(Eraser)
+        Controls.Add(EraseAll)
+        Controls.Add(Save)
+        Controls.Add(PictureBox2)
         DoubleBuffered = True
         Margin = New Padding(3, 2, 3, 2)
         MaximizeBox = False
@@ -250,6 +295,8 @@ Partial Class Form1
         CType(ColorPink, ComponentModel.ISupportInitialize).EndInit()
         CType(ColorBlack, ComponentModel.ISupportInitialize).EndInit()
         CType(Eraser, ComponentModel.ISupportInitialize).EndInit()
+        CType(EraseAll, ComponentModel.ISupportInitialize).EndInit()
+        CType(Save, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
         PerformLayout()
     End Sub
@@ -266,5 +313,8 @@ Partial Class Form1
     Friend WithEvents Eraser As PictureBox
     Friend WithEvents Label2 As Label
     Friend WithEvents Label3 As Label
-
+    Friend WithEvents EraseAll As PictureBox
+    Friend WithEvents PictureBox3 As PictureBox
+    Friend WithEvents Label4 As Label
+    Friend WithEvents Save As PictureBox
 End Class
