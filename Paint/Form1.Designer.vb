@@ -58,10 +58,9 @@ Partial Class Form1
         ColorBlue.BackgroundImageLayout = ImageLayout.Stretch
         ColorBlue.Cursor = Cursors.Hand
         ColorBlue.Image = CType(resources.GetObject("ColorBlue.Image"), Image)
-        ColorBlue.Location = New Point(314, 28)
-        ColorBlue.Margin = New Padding(3, 2, 3, 2)
+        ColorBlue.Location = New Point(359, 37)
         ColorBlue.Name = "ColorBlue"
-        ColorBlue.Size = New Size(88, 70)
+        ColorBlue.Size = New Size(101, 93)
         ColorBlue.SizeMode = PictureBoxSizeMode.StretchImage
         ColorBlue.TabIndex = 1
         ColorBlue.TabStop = False
@@ -71,10 +70,9 @@ Partial Class Form1
         ColorRed.BackgroundImageLayout = ImageLayout.Stretch
         ColorRed.Cursor = Cursors.Hand
         ColorRed.Image = CType(resources.GetObject("ColorRed.Image"), Image)
-        ColorRed.Location = New Point(217, 28)
-        ColorRed.Margin = New Padding(3, 2, 3, 2)
+        ColorRed.Location = New Point(248, 37)
         ColorRed.Name = "ColorRed"
-        ColorRed.Size = New Size(88, 70)
+        ColorRed.Size = New Size(101, 93)
         ColorRed.SizeMode = PictureBoxSizeMode.StretchImage
         ColorRed.TabIndex = 2
         ColorRed.TabStop = False
@@ -84,10 +82,9 @@ Partial Class Form1
         ColorGreen.BackgroundImageLayout = ImageLayout.Stretch
         ColorGreen.Cursor = Cursors.Hand
         ColorGreen.Image = CType(resources.GetObject("ColorGreen.Image"), Image)
-        ColorGreen.Location = New Point(412, 28)
-        ColorGreen.Margin = New Padding(3, 2, 3, 2)
+        ColorGreen.Location = New Point(471, 37)
         ColorGreen.Name = "ColorGreen"
-        ColorGreen.Size = New Size(87, 71)
+        ColorGreen.Size = New Size(99, 95)
         ColorGreen.SizeMode = PictureBoxSizeMode.StretchImage
         ColorGreen.TabIndex = 3
         ColorGreen.TabStop = False
@@ -96,10 +93,9 @@ Partial Class Form1
         ' 
         PictureBox1.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom Or AnchorStyles.Left Or AnchorStyles.Right
         PictureBox1.BorderStyle = BorderStyle.FixedSingle
-        PictureBox1.Location = New Point(56, 124)
-        PictureBox1.Margin = New Padding(3, 2, 3, 2)
+        PictureBox1.Location = New Point(64, 165)
         PictureBox1.Name = "PictureBox1"
-        PictureBox1.Size = New Size(920, 397)
+        PictureBox1.Size = New Size(1051, 529)
         PictureBox1.TabIndex = 4
         PictureBox1.TabStop = False
         ' 
@@ -107,9 +103,10 @@ Partial Class Form1
         ' 
         PictureBox2.BackColor = Color.Transparent
         PictureBox2.Image = CType(resources.GetObject("PictureBox2.Image"), Image)
-        PictureBox2.Location = New Point(-66, -35)
+        PictureBox2.Location = New Point(-75, -47)
+        PictureBox2.Margin = New Padding(3, 4, 3, 4)
         PictureBox2.Name = "PictureBox2"
-        PictureBox2.Size = New Size(359, 198)
+        PictureBox2.Size = New Size(410, 264)
         PictureBox2.SizeMode = PictureBoxSizeMode.Zoom
         PictureBox2.TabIndex = 5
         PictureBox2.TabStop = False
@@ -121,9 +118,9 @@ Partial Class Form1
         Label1.BackColor = Color.Transparent
         Label1.Font = New Font("Juice ITC", 14.25F, FontStyle.Bold, GraphicsUnit.Point)
         Label1.ForeColor = Color.LavenderBlush
-        Label1.Location = New Point(4, 529)
+        Label1.Location = New Point(5, 705)
         Label1.Name = "Label1"
-        Label1.Size = New Size(139, 21)
+        Label1.Size = New Size(167, 27)
         Label1.TabIndex = 6
         Label1.Text = "V1.1 par le Groupe 1"
         ' 
@@ -132,10 +129,9 @@ Partial Class Form1
         ColorOrange.BackgroundImageLayout = ImageLayout.Stretch
         ColorOrange.Cursor = Cursors.Hand
         ColorOrange.Image = CType(resources.GetObject("ColorOrange.Image"), Image)
-        ColorOrange.Location = New Point(509, 28)
-        ColorOrange.Margin = New Padding(3, 2, 3, 2)
+        ColorOrange.Location = New Point(582, 37)
         ColorOrange.Name = "ColorOrange"
-        ColorOrange.Size = New Size(87, 71)
+        ColorOrange.Size = New Size(99, 95)
         ColorOrange.SizeMode = PictureBoxSizeMode.StretchImage
         ColorOrange.TabIndex = 7
         ColorOrange.TabStop = False
@@ -145,10 +141,9 @@ Partial Class Form1
         ColorYellow.BackgroundImageLayout = ImageLayout.Stretch
         ColorYellow.Cursor = Cursors.Hand
         ColorYellow.Image = CType(resources.GetObject("ColorYellow.Image"), Image)
-        ColorYellow.Location = New Point(606, 27)
-        ColorYellow.Margin = New Padding(3, 2, 3, 2)
+        ColorYellow.Location = New Point(693, 36)
         ColorYellow.Name = "ColorYellow"
-        ColorYellow.Size = New Size(87, 71)
+        ColorYellow.Size = New Size(99, 95)
         ColorYellow.SizeMode = PictureBoxSizeMode.StretchImage
         ColorYellow.TabIndex = 8
         ColorYellow.TabStop = False
@@ -158,10 +153,9 @@ Partial Class Form1
         ColorPink.BackgroundImageLayout = ImageLayout.Stretch
         ColorPink.Cursor = Cursors.Hand
         ColorPink.Image = CType(resources.GetObject("ColorPink.Image"), Image)
-        ColorPink.Location = New Point(704, 28)
-        ColorPink.Margin = New Padding(3, 2, 3, 2)
+        ColorPink.Location = New Point(805, 37)
         ColorPink.Name = "ColorPink"
-        ColorPink.Size = New Size(87, 71)
+        ColorPink.Size = New Size(99, 95)
         ColorPink.SizeMode = PictureBoxSizeMode.StretchImage
         ColorPink.TabIndex = 9
         ColorPink.TabStop = False
@@ -171,10 +165,9 @@ Partial Class Form1
         ColorBlack.BackgroundImageLayout = ImageLayout.Stretch
         ColorBlack.Cursor = Cursors.Hand
         ColorBlack.Image = CType(resources.GetObject("ColorBlack.Image"), Image)
-        ColorBlack.Location = New Point(802, 28)
-        ColorBlack.Margin = New Padding(3, 2, 3, 2)
+        ColorBlack.Location = New Point(917, 37)
         ColorBlack.Name = "ColorBlack"
-        ColorBlack.Size = New Size(87, 71)
+        ColorBlack.Size = New Size(99, 95)
         ColorBlack.SizeMode = PictureBoxSizeMode.StretchImage
         ColorBlack.TabIndex = 10
         ColorBlack.TabStop = False
@@ -184,9 +177,10 @@ Partial Class Form1
         Eraser.BackColor = Color.Transparent
         Eraser.Cursor = Cursors.Hand
         Eraser.Image = CType(resources.GetObject("Eraser.Image"), Image)
-        Eraser.Location = New Point(895, 19)
+        Eraser.Location = New Point(1023, 25)
+        Eraser.Margin = New Padding(3, 4, 3, 4)
         Eraser.Name = "Eraser"
-        Eraser.Size = New Size(85, 100)
+        Eraser.Size = New Size(97, 133)
         Eraser.SizeMode = PictureBoxSizeMode.Zoom
         Eraser.TabIndex = 11
         Eraser.TabStop = False
@@ -198,9 +192,9 @@ Partial Class Form1
         Label2.BackColor = Color.Transparent
         Label2.Font = New Font("Juice ITC", 14.25F, FontStyle.Bold, GraphicsUnit.Point)
         Label2.ForeColor = Color.LavenderBlush
-        Label2.Location = New Point(440, 4)
+        Label2.Location = New Point(503, 5)
         Label2.Name = "Label2"
-        Label2.Size = New Size(174, 21)
+        Label2.Size = New Size(215, 27)
         Label2.TabIndex = 12
         Label2.Text = "Choisissez votre couleur."
         ' 
@@ -211,9 +205,9 @@ Partial Class Form1
         Label3.BackColor = Color.Transparent
         Label3.Font = New Font("Juice ITC", 14.25F, FontStyle.Bold, GraphicsUnit.Point)
         Label3.ForeColor = Color.LavenderBlush
-        Label3.Location = New Point(560, 101)
+        Label3.Location = New Point(701, 135)
         Label3.Name = "Label3"
-        Label3.Size = New Size(15, 21)
+        Label3.Size = New Size(17, 27)
         Label3.TabIndex = 13
         Label3.Text = " "
         ' 
@@ -222,9 +216,10 @@ Partial Class Form1
         EraseAll.BackColor = Color.Transparent
         EraseAll.Cursor = Cursors.Hand
         EraseAll.Image = CType(resources.GetObject("EraseAll.Image"), Image)
-        EraseAll.Location = New Point(966, 34)
+        EraseAll.Location = New Point(1104, 45)
+        EraseAll.Margin = New Padding(3, 4, 3, 4)
         EraseAll.Name = "EraseAll"
-        EraseAll.Size = New Size(75, 65)
+        EraseAll.Size = New Size(86, 87)
         EraseAll.SizeMode = PictureBoxSizeMode.Zoom
         EraseAll.TabIndex = 14
         EraseAll.TabStop = False
@@ -236,33 +231,34 @@ Partial Class Form1
         Label4.BackColor = Color.Transparent
         Label4.Font = New Font("Juice ITC", 14.25F, FontStyle.Bold, GraphicsUnit.Point)
         Label4.ForeColor = Color.LavenderBlush
-        Label4.Location = New Point(440, 101)
+        Label4.Location = New Point(503, 135)
         Label4.Name = "Label4"
-        Label4.Size = New Size(123, 21)
+        Label4.Size = New Size(187, 27)
         Label4.TabIndex = 15
-        Label4.Text = "Currently using: "
+        Label4.Text = "Utilise actuellement: "
         ' 
         ' Save
         ' 
         Save.BackColor = Color.Transparent
         Save.Cursor = Cursors.Hand
         Save.Image = CType(resources.GetObject("Save.Image"), Image)
-        Save.Location = New Point(981, 512)
+        Save.Location = New Point(1121, 683)
+        Save.Margin = New Padding(3, 4, 3, 4)
         Save.Name = "Save"
-        Save.Size = New Size(60, 38)
+        Save.Size = New Size(69, 51)
         Save.SizeMode = PictureBoxSizeMode.Zoom
         Save.TabIndex = 16
         Save.TabStop = False
         ' 
         ' Form1
         ' 
-        AutoScaleDimensions = New SizeF(7F, 15F)
+        AutoScaleDimensions = New SizeF(8.0F, 20.0F)
         AutoScaleMode = AutoScaleMode.Font
         AutoSize = True
         AutoSizeMode = AutoSizeMode.GrowAndShrink
         BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), Image)
         BackgroundImageLayout = ImageLayout.Stretch
-        ClientSize = New Size(1031, 551)
+        ClientSize = New Size(1178, 735)
         Controls.Add(PictureBox1)
         Controls.Add(Label4)
         Controls.Add(Label3)
@@ -280,7 +276,6 @@ Partial Class Form1
         Controls.Add(Save)
         Controls.Add(PictureBox2)
         DoubleBuffered = True
-        Margin = New Padding(3, 2, 3, 2)
         MaximizeBox = False
         MdiChildrenMinimizedAnchorBottom = False
         Name = "Form1"

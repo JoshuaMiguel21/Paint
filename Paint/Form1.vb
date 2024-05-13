@@ -39,19 +39,19 @@ Public Class Form1
     End Sub
 
     Private Sub ColorBlue_Click(sender As Object, e As EventArgs) Handles ColorBlue.Click
-        Label3.Text = "Blue"
+        Label3.Text = "Bleu"
         Label3.ForeColor = Color.Blue
         currentColor = Color.Blue
     End Sub
 
     Private Sub ColorRed_Click(sender As Object, e As EventArgs) Handles ColorRed.Click
-        Label3.Text = "Red"
+        Label3.Text = "Rouge"
         Label3.ForeColor = Color.Red
         currentColor = Color.Red
     End Sub
 
     Private Sub ColorGreen_Click(sender As Object, e As EventArgs) Handles ColorGreen.Click
-        Label3.Text = "Green"
+        Label3.Text = "Vert"
         Label3.ForeColor = Color.Green
         currentColor = Color.Green
     End Sub
@@ -63,25 +63,25 @@ Public Class Form1
     End Sub
 
     Private Sub ColorYellow_Click(sender As Object, e As EventArgs) Handles ColorYellow.Click
-        Label3.Text = "Yellow"
+        Label3.Text = "Jaune"
         Label3.ForeColor = Color.Yellow
         currentColor = Color.Yellow
     End Sub
 
     Private Sub ColorPink_Click(sender As Object, e As EventArgs) Handles ColorPink.Click
-        Label3.Text = "Pink"
+        Label3.Text = "Rose"
         Label3.ForeColor = Color.Pink
         currentColor = Color.Pink
     End Sub
 
     Private Sub ColorBlack_Click(sender As Object, e As EventArgs) Handles ColorBlack.Click
-        Label3.Text = "Black"
+        Label3.Text = "Noir"
         Label3.ForeColor = Color.Black
         currentColor = Color.Black
     End Sub
 
     Private Sub Eraser_Click(sender As Object, e As EventArgs) Handles Eraser.Click
-        Label3.Text = "Eraser"
+        Label3.Text = "Gomme"
         Label3.ForeColor = PictureBox1.BackColor
         currentColor = PictureBox1.BackColor
     End Sub
